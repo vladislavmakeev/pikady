@@ -1,0 +1,114 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+	background: #e5e5e5;
+}
+.header {
+	background: #fa8c16;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+	margin-bottom: 30px;
+}
+.header-wrapper {
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-nav {
+	margin-left: 60px;
+	margin-right: auto;
+}
+.header-menu {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.header-menu-link {
+	text-decoration: none;
+	color: #fafafa;
+	margin-right: 15px;
+	font-size: 14px;
+	line-height: 22px;
+}
+.input-group {
+	width: 237px;
+	height: 32px;
+	position: relative;
+	background: #ffffff;
+	border-radius: 4px;
+	overflow: hidden;
+	border: 1px solid #d9d9d9;
+}
+.search-input {
+	padding-left: 12px;
+	border: none;
+	width: 80%;
+	height: 100%;
+	font-size: 14px;
+	line-height: 22px;
+}
+.search-button {
+	height: 100%;
+	width: 20%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: none;
+	background-color: #fff;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+   .search-input::-moz-placeholder {color: #BFBFBF; }
+   .search-input::-webkit-input-placeholder { color: #BFBFBF; }
+   .search-input::-ms-input-placeholder { color: #BFBFBF; }
+   .search-input::-ms-input-placeholder { color: #BFBFBF; }
+   .search-input::placeholder { color: #BFBFBF; } 
+
+.content {
+   	min-width: 1200px;
+   	width: 90%;
+   	margin: auto;
+}
+.posts {
+	max-width: 800px;
+}
+.post {
+	background-color: #FFF;
+	border: 1px solid #e8e8e8;
+	padding-left: 35px;
+	padding-top: 35px;
+	padding-right: 35px;
+	padding-bottom: 0;
+}
+.post-title {
+	margin-top: 0;
+	margin-bottom: 19px;
+}
+.tags {
+	margin-bottom: 22px;
+}
+.tag {
+	color: #BFBFBF;
+	font-size: 14px;
+	line-height: 22px;
+	margin-right: 10px;
+}
+.post-footer {
+	background: #FAFAFA;
+    border: 1px solid #E8E8E8;
+}
+.post-footer .icon {
+	full: #8c8c8c;
+}
+
+
+  
